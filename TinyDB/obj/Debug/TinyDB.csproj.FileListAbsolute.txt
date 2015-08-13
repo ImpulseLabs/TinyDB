@@ -1,0 +1,5 @@
+c:\users\hazem\documents\visual studio 2012\Projects\TinyDB\TinyDB\bin\Debug\TinyDB.dll
+c:\users\hazem\documents\visual studio 2012\Projects\TinyDB\TinyDB\bin\Debug\TinyDB.pdb
+c:\users\hazem\documents\visual studio 2012\Projects\TinyDB\TinyDB\obj\Debug\TinyDB.dll
+c:\users\hazem\documents\visual studio 2012\Projects\TinyDB\TinyDB\obj\Debug\TinyDB.pdb
+c:\users\hazem\documents\visual studio 2012\Projects\TinyDB\TinyDB\obj\Debug\TinyDB.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\bin\Debug\TinyDB_Design.exe.config
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\bin\Debug\TinyDB_Design.exe
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\bin\Debug\TinyDB_Design.pdb
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\bin\Debug\TinyDB.dll
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\bin\Debug\TinyDB.pdb
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\obj\Debug\TinyDB_Design.csprojResolveAssemblyReference.cache
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\obj\Debug\TinyDB_Design.Form1.resources
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\obj\Debug\TinyDB_Design.Properties.Resources.resources
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\obj\Debug\TinyDB_Design.csproj.GenerateResource.Cache
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\obj\Debug\TinyDB_Design.exe
+c:\Users\HAZEM\documents\visual studio 2012\Projects\TinyDB\TinyDB_Design\obj\Debug\TinyDB_Design.pdb

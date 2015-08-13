@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C17060C-F3F1-4BAA-997D-F68D8D3A17D8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TinyDB</RootNamespace>
+    <AssemblyName>TinyDB</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BosY\Main.cs" />
+    <Compile Include="Dodo\DoXmlNode.cs" />
+    <Compile Include="Dodo\Parser.cs" />
+    <Compile Include="QueryManager\SchemaValdiator.cs" />
+    <Compile Include="StorageManger\Paths.cs" />
+    <Compile Include="StorageManger\SectorOps.cs" />
+    <Compile Include="StorageManger\STAT.cs" />
+    <Compile Include="Types\Attr.cs" />
+    <Compile Include="Types\DataObject.cs" />
+    <Compile Include="Types\Key.cs" />
+    <Compile Include="Driver.cs" />
+    <Compile Include="MemoryOps.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryManager\DBQuery.cs" />
+    <Compile Include="QueryManager\QueryExecuter.cs" />
+    <Compile Include="Query\QueryI.cs" />
+    <Compile Include="Query\QueryResult.cs" />
+    <Compile Include="QueryManager\QuerySelector.cs" />
+    <Compile Include="QueryManager\RecordQuery.cs" />
+    <Compile Include="QueryManager\TableQuery.cs" />
+    <Compile Include="StorageManger\DirectoryOps.cs" />
+    <Compile Include="StorageManger\FileOps.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Indexing\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
